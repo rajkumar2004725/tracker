@@ -38,7 +38,7 @@ Backend structure
 Installation
 
 1.Clone the repository:
-    git clone https://github.com/your-repo/sustainability-tracker-api.git
+    git clone https:https://github.com/rajkumar2004725/tracker.git
     cd sustainability-tracker-api
 
 2.Create and activate a virtual environment:

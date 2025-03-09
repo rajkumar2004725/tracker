@@ -127,41 +127,41 @@ HTTP Status Code   ||    Meaning
 
 
 
-Sustainability Tracker Frontend 🌱
+Sustainability Tracker Frontend 
 
 
 This is the frontend for the Sustainability Tracker project, built using React.js. The application allows users to track sustainability actions, assign points, and manage actions using a clean and user-friendly interface.
 
-🚀 Features
+Features
 
-✅ Fetch and display sustainability actions from the backend API.
-✅ Add new sustainability actions via a form.
-✅ Edit and update existing actions.
-✅ Delete sustainability actions.
-✅ Styled interface with CSS and Toast notifications for feedback.
+  Fetch and display sustainability actions from the backend API.
+  Add new sustainability actions via a form.
+  Edit and update existing actions.
+  Delete sustainability actions.
+  Styled interface with CSS and Toast notifications for feedback.
 
-🛠️ Tech Stack
+Tech Stack
 
-React.js (Frontend framework)
-Axios (For API requests)
-React Toastify (For notifications)
-CSS (For styling)
-
-
-📦 Installation & Setup
+  React.js (Frontend framework)
+  Axios (For API requests)
+  React Toastify (For notifications)
+  CSS (For styling)
 
 
-1️⃣ Clone the Repository
-    git clone https://github.com/rajkumar2004725/Sustainability-Tracker.git
-cd Sustainability-Tracker/frontend
-2️⃣ Install Dependencies
-    npm install
-3️⃣ Start the React App
-    npm start
-This will start the development server at http://localhost:3000/.
+Installation & Setup
 
-⚡ API Configuration
-This frontend communicates with the Django backend. Ensure your backend is running before testing the frontend.
+
+  1️⃣ Clone the Repository
+      git clone https://github.com/rajkumar2004725/Sustainability-Tracker.git
+  cd Sustainability-Tracker/frontend
+  2️⃣ Install Dependencies
+      npm install
+  3️⃣ Start the React App
+      npm start
+  This will start the development server at http://localhost:3000/.
+
+API Configuration
+  This frontend communicates with the Django backend. Ensure your backend is running before testing the frontend.
 
 Backend API URL:
 Modify the API_URL in src/services/api.js if needed:
@@ -169,7 +169,7 @@ Modify the API_URL in src/services/api.js if needed:
 javascript
     const API_URL = "http://127.0.0.1:8000/api/actions/";
 
-📌 Project Structure
+Project Structure
 
     sustainability-tracker/ 
     │── frontend/   
@@ -186,24 +186,24 @@ javascript
     │── README.md            # Project documentation
 
 
-🎯 Usage
+Usage
 
     Add a sustainability action → Fill in the form and click "Add Action".
     Edit an action → Click "Edit", modify details, and save changes.
     Delete an action → Click "Delete" to remove an action.
 
-🎨 Styling & UI
+Styling & UI
 
     Uses CSS for styling (App.css).
     Responsive design for better user experience.
     Toast notifications to provide user feedback.
 
 
-🐞 Troubleshooting
+Troubleshooting
 
 
-🔴 If API requests fail (CORS issue)
-Ensure CORS is enabled in backend/settings.py:
+If API requests fail (CORS issue)
+    Ensure CORS is enabled in backend/settings.py:
 
         INSTALLED_APPS = [
             'corsheaders',
@@ -215,12 +215,12 @@ Ensure CORS is enabled in backend/settings.py:
         ]
         CORS_ALLOW_ALL_ORIGINS = True  # Allow frontend requests
 
-🔴 If dependencies are missing
-Run:
+If dependencies are missing
+  Run:
     npm install
 
-🔴 If frontend does not start
-Try:
+If frontend does not start
+  Try:
     rm -rf node_modules package-lock.json
     npm install
     npm start
